@@ -4,31 +4,28 @@
 		<meta charset="utf-8" />
 		<title>BTS SIO</title>
 		<link rel="stylesheet" href="style.css" type="text/css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 
 	<body>
-		<div class="menu">
-			<nav>
-				<ul>
-					<li><a href="accueil.html">Accueil</a></li>
-					<li><a href="moi.html">À propos de moi</a></li>
-					<li><a href="competences.html">Compétences</a></li>
-					<li><a class="page_actuelle" href="bts.html">BTS informatique</a></li>
-					<li><a href="stages.html">Stages</a></li>
-					<li><a href="veille.html">Veille technologique</a></li>
-				</ul>
-				<p class="nom"><b>Rodrigues Kévin</b></p>
-			</nav>
-			<nav class="ligne"></nav>
+		<div class="nav" id="nav">
+			<a href="accueil.php">Accueil</a>
+			<a href="moi.html">À propos de moi</a>
+			<a href="competences.html">Compétences</a>
+			<a href="bts.html" class="pageActuelle">BTS Informatique</a>
+			<a href="stages.html">Stages</a>
+			<a href="veille.html">Veille technologique</a>
+			<a href="javascript:void(0);" class="icone" onclick="responsiveNav()">
+			  <i class="fa fa-bars"></i>
+			</a>
+			<p class="nom">Rodrigues Kévin &nbsp&nbsp&nbsp</p>
 		</div>
 
 		<br>
 		<br>
 		<br>
-		<br>
-		<br>
 		<center>
-			<p class="titre_general">
+			<p class="titreGeneral">
 				<u>
 					<b>
 						Présentation du BTS SIO
@@ -38,7 +35,7 @@
 			<br>
 			<br>
 			<br>
-			<img class="image_page" src="images_pages/bts.jpg">
+			<img class="imagePage" src="imagesPages/bts.jpg">
 			<br>
 			<br>
 			<br>
@@ -64,7 +61,7 @@
 			<table>
 				<tr>
 					<td>
-						<p class="contenu_colonne">
+						<p class="contenuColonne">
 							<b><u>Spécialité SISR (Réseaux) :</u></b><br>
 							<br>
 							La spécialité Solutions d’Infrastructure, Systèmes
@@ -92,7 +89,7 @@
 					</td>
 					<td class="espacement"></td>
 					<td>
-						<p class="contenu_colonne">
+						<p class="contenuColonne">
 							<b><u>Spécialité SLAM (Développement) :</u></b><br>
 							<br>
 							La spécialité Solutions Logicielles et Applications
@@ -122,11 +119,12 @@
 				</tr>
 			</table>
 			<br><br><br><br><br>
-			<nav class="credit">
+			<nav class="piedPage">
 				<p class="date">
 					2022/2024
 				</p>
 			</nav>
 		</center>
+		<script src="script.js"></script>
 	</body>
 </html>

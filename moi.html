@@ -4,31 +4,28 @@
 		<meta charset="utf-8" />
 		<title>À propos de moi</title>
 		<link rel="stylesheet" href="style.css" type="text/css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 
 	<body>
-		<div class="menu">
-			<nav>
-				<ul>
-					<li><a href="accueil.html">Accueil</a></li>
-					<li><a class="page_actuelle" href="moi.html">À propos de moi</a></li>
-					<li><a href="competences.html">Compétences</a></li>
-					<li><a href="bts.html">BTS informatique</a></li>
-					<li><a href="stages.html">Stages</a></li>
-					<li><a href="veille.html">Veille technologique</a></li>
-				</ul>
-				<p class="nom"><b>Rodrigues Kévin</b></p>
-			</nav>
-			<nav class="ligne"></nav>
+		<div class="nav" id="nav">
+			<a href="accueil.php">Accueil</a>
+			<a href="moi.html" class="pageActuelle">À propos de moi</a>
+			<a href="competences.html">Compétences</a>
+			<a href="bts.html">BTS Informatique</a>
+			<a href="stages.html">Stages</a>
+			<a href="veille.html">Veille technologique</a>
+			<a href="javascript:void(0);" class="icone" onclick="responsiveNav()">
+			  <i class="fa fa-bars"></i>
+			</a>
+			<p class="nom">Rodrigues Kévin &nbsp&nbsp&nbsp</p>
 		</div>
 
 		<br>
 		<br>
 		<br>
-		<br>
-		<br>
 		<center>
-			<p class="titre_general">
+			<p class="titreGeneral">
 				<u>
 					<b>
 						Présentation
@@ -38,13 +35,13 @@
 			<br>
 			<br>
 			<br>
-			<img class="image_page" src="images_pages/presentation.jpg">
+			<img class="imagePage" src="imagesPages/presentation.jpg">
 			<br>
 			<br>
 			<br>
 			<p class="contenu">
 				Je m’appelle Kévin Rodrigues et je suis actuellement étudiant au lycée René Descartes
-				en première année de BTS informatique (BTS SIO SLAM). Je poursuis depuis le début du
+				en deuxième année de BTS informatique (BTS SIO SLAM). Je poursuis depuis le début du
 				lycée une orientation vers l’informatique, en particulier la programmation. J’ai en
 				effet fait un bac STI2D, une première année de BUT informatique puis aujourd’hui je
 				suis en train de faire un BTS informatique.<br>
@@ -62,15 +59,16 @@
 			<br>
 			<br>
 			<br>
-			<form method="get" action="cv.pdf" target="_blank">
+			<form method="get" action="autres/cv.pdf" target="_blank">
 				<button type="submit"><b>MON CV</b></button>
 			 </form>
 			<br><br><br><br><br>
-			<nav class="credit">
+			<nav class="piedPage">
 				<p class="date">
 					2022/2024
 				</p>
 			</nav>
 		</center>
+		<script src="script.js"></script>
 	</body>
 </html>

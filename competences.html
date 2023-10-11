@@ -4,31 +4,28 @@
 		<meta charset="utf-8" />
 		<title>Compétences</title>
 		<link rel="stylesheet" href="style.css" type="text/css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 
 	<body>
-		<div class="menu">
-			<nav>
-				<ul>
-					<li><a href="accueil.html">Accueil</a></li>
-					<li><a href="moi.html">À propos de moi</a></li>
-					<li><a class="page_actuelle" href="competences.html">Compétences</a></li>
-					<li><a href="bts.html">BTS informatique</a></li>
-					<li><a href="stages.html">Stages</a></li>
-					<li><a href="veille.html">Veille technologique</a></li>
-				</ul>
-				<p class="nom"><b>Rodrigues Kévin</b></p>
-			</nav>
-			<nav class="ligne"></nav>
+		<div class="nav" id="nav">
+			<a href="accueil.php">Accueil</a>
+			<a href="moi.html">À propos de moi</a>
+			<a href="competences.html" class="pageActuelle">Compétences</a>
+			<a href="bts.html">BTS Informatique</a>
+			<a href="stages.html">Stages</a>
+			<a href="veille.html">Veille technologique</a>
+			<a href="javascript:void(0);" class="icone" onclick="responsiveNav()">
+			  <i class="fa fa-bars"></i>
+			</a>
+			<p class="nom">Rodrigues Kévin &nbsp&nbsp&nbsp</p>
 		</div>
 
 		<br>
 		<br>
 		<br>
-		<br>
-		<br>
 		<center>
-			<p class="titre_general">
+			<p class="titreGeneral">
 				<u>
 					<b>
 						Mes compétences informatique
@@ -38,7 +35,7 @@
 			<br>
 			<br>
 			<br>
-			<img class="image_page" src="images_pages/competences.jpg">
+			<img class="imagePage" src="imagesPages/competences.jpg">
 			<br>
 			<br>
 			<br>
@@ -55,7 +52,7 @@
 			<p><b><u>Langages de programmation</u></b><br></p>
 			<br>
 			<br>
-			<img class="image_competence" src="images_competences/html.png">
+			<img class="imageCompetence" src="imagesCompetences/html.png">
 			<div class="barre">
 					<div class="niveau html">70%</div>
 			</div>
@@ -63,7 +60,7 @@
 			<br>
 			<br>
 			<br>
-			<img class="image_competence" src="images_competences/css.png">
+			<img class="imageCompetence" src="imagesCompetences/css.png">
 			<div class="barre">
 				<div class="niveau css">30%</div>
 			</div>
@@ -71,7 +68,7 @@
 			<br>
 			<br>
 			<br>
-			<img class="image_competence" src="images_competences/php.png">
+			<img class="imageCompetence" src="imagesCompetences/php.png">
 			<div class="barre">
 				<div class="niveau php">40%</div>
 			</div>
@@ -79,7 +76,7 @@
 			<br>
 			<br>
 			<br>
-			<img class="image_competence" src="images_competences/python.png">
+			<img class="imageCompetence" src="imagesCompetences/python.png">
 			<div class="barre">
 				<div class="niveau python">80%</div>
 			</div>
@@ -87,7 +84,7 @@
 			<br>
 			<br>
 			<br>
-			<img class="image_competence" src="images_competences/c.png">
+			<img class="imageCompetence" src="imagesCompetences/c.png">
 			<div class="barre">
 				<div class="niveau c">50%</div>
 			</div>
@@ -95,7 +92,7 @@
 			<br>
 			<br>
 			<br>
-			<img class="image_competence" src="images_competences/java.png">
+			<img class="imageCompetence" src="imagesCompetences/java.png">
 			<div class="barre">
 				<div class="niveau java">30%</div>
 			</div>
@@ -111,7 +108,7 @@
 			<p><br><br><b><u>Langages de script</u></b><br></p>
 			<br>
 			<br>
-			<img class="image_competence" src="images_competences/bash.png">
+			<img class="imageCompetence" src="imagesCompetences/bash.png">
 			<div class="barre">
 				<div class="niveau bash">30%</div>
 			</div>
@@ -127,7 +124,7 @@
 			<p><br><br><b><u>Langages de requête</u></b><br></p>
 			<br>
 			<br>
-			<img class="image_competence" src="images_competences/mysql.png">
+			<img class="imageCompetence" src="imagesCompetences/mysql.png">
 			<div class="barre">
 				<div class="niveau mysql">70%</div>
 			</div>
@@ -135,7 +132,7 @@
 			<br>
 			<br>
 			<br>
-			<img class="image_competence" src="images_competences/postgresql.png">
+			<img class="imageCompetence" src="imagesCompetences/postgresql.png">
 			<div class="barre">
 				<div class="niveau postgresql">60%</div>
 			</div>
@@ -151,7 +148,7 @@
 			<p><br><br><b><u>Logiciels</u></b><br></p>
 			<br>
 			<br>
-			<img class="image_competence" src="images_competences/google.png">
+			<img class="imageCompetence" src="imagesCompetences/google.png">
 			<div class="barre">
 				<div class="niveau google">90%</div>
 			</div>
@@ -159,15 +156,15 @@
 			<br>
 			<br>
 			<br>
-			<img class="image_competence" src="images_competences/libreoffice.png">
+			<img class="imageCompetence" src="imagesCompetences/libreoffice.png">
 			<div class="barre">
-				<div class="niveau libre_office">90%</div>
+				<div class="niveau libreOffice">90%</div>
 			</div>
 			<p>Libre Office Writer/Calc<br></p>
 			<br>
 			<br>
 			<br>
-			<img class="image_competence" src="images_competences/eclipse.png">
+			<img class="imageCompetence" src="imagesCompetences/eclipse.png">
 			<div class="barre">
 				<div class="niveau eclipse">30%</div>
 			</div>
@@ -175,7 +172,7 @@
 			<br>
 			<br>
 			<br>
-			<img class="image_competence" src="images_competences/microsoft.png">
+			<img class="imageCompetence" src="imagesCompetences/microsoft.png">
 			<div class="barre">
 				<div class="niveau microsoft">75%</div>
 			</div>
@@ -191,7 +188,7 @@
 			<p><br><br><b><u>Systèmes d'exploitation</u></b><br></p>
 			<br>
 			<br>
-			<img class="image_competence" src="images_competences/linux.png">
+			<img class="imageCompetence" src="imagesCompetences/linux.png">
 			<div class="barre">
 				<div class="niveau linux">80%</div>
 			</div>
@@ -199,7 +196,7 @@
 			<br>
 			<br>
 			<br>
-			<img class="image_competence" src="images_competences/windows.png">
+			<img class="imageCompetence" src="imagesCompetences/windows.png">
 			<div class="barre">
 				<div class="niveau windows">90%</div>
 			</div>
@@ -218,11 +215,12 @@
 				Certification CISCO en cours d'apprentissage cette année.
 			</p>
 			<br><br><br><br><br>
-			<nav class="credit">
+			<nav class="piedPage">
 				<p class="date">
 					2022/2024
 				</p>
 			</nav>
 		</center>
+		<script src="script.js"></script>
 	</body>
 </html>
