@@ -21,9 +21,9 @@
 		<meta charset="utf-8" />
 		<title>Accueil</title>
 		<link rel="stylesheet" href="style.css" type="text/css" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<link rel="icon" href="imagesPages/logo.png" type="image/png" />
 	</head>
-
 	<body>
 		<div class="menu">
 			<div class="nav" id="nav">
@@ -39,7 +39,6 @@
 				<p class="nom">Rodrigues Kévin &nbsp&nbsp&nbsp</p>
 			</div>
 		</div>
-
 		<br>
 		<br>
 		<br>
@@ -47,11 +46,7 @@
 		<br>
 		<center>
 			<p class="titreAccueil">
-				<u>
-					<b>
-						Mon portfolio
-					</b>
-				</u>
+				<u><b>Mon portfolio</b></u>
 			</p>
 			<br>
 			<br>
@@ -79,12 +74,16 @@
 			<?php
 				echo "<p><b>Nombre de visites uniques depuis le 11/10/2023 : " . $contenuString . "</b></p>";
 			?>
-			<br><br><br><br><br>
-			<nav class="piedPage">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<footer class="piedPage">
 				<p class="date">
 					2022/2024
 				</p>
-			</nav>
+			</footer>
 		</center>
 		<script src="script.js"></script>
 	</body>
