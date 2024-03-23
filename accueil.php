@@ -30,13 +30,13 @@
 				<a href="accueil.php" class="pageActuelle">Accueil</a>
 				<a href="moi.html">À propos de moi</a>
 				<a href="competences.html">Compétences</a>
-				<a href="bts.html">BTS Informatique</a>
+				<a href="bts.html">BTS SIO</a>
 				<a href="stages.html">Stages</a>
 				<a href="veille.html">Veille technologique</a>
 				<a href="javascript:void(0);" class="icone" onclick="responsiveNav()">
 			  		<i class="fa fa-bars"></i>
 				</a>
-				<p class="nom">Rodrigues Kévin &nbsp&nbsp&nbsp</p>
+				<p class="titreBarreNav">Mon portfolio &nbsp&nbsp&nbsp</p>
 			</div>
 		</div>
 		<br>
@@ -56,11 +56,11 @@
 			<br>
 			<br>
 			<p class="contenu">
-				Je m'appelle Kévin Rodrigues, je suis actuellement en deuxième année de BTS informatique
-				(BTS SIO SLAM) et je vous présente mon portfolio qui regroupe mon parcours dans cette
-				formation sous la forme d'un site web programmé en HTML5, en CSS3, en PHP et en
-				JavaScript par moi même. De plus, le code source du site web est librement disponible
-				sur mon GitHub.
+				Bienvenue, je m'appelle Kévin Rodrigues, je suis actuellement en deuxième année de BTS
+				SIO option SLAM, et je vous présente mon portfolio. Celui-ci regroupe mon parcours dans
+				cette formation sous la forme d'un site web programmé en HTML5, en CSS3, en PHP et en
+				JavaScript, que j'ai programmé moi-même. De plus, le code source du site web est
+				librement disponible sur mon GitHub.
 			</p>
 			<br>
 			<br>
@@ -72,7 +72,7 @@
 			<br>
 			<br>
 			<?php
-				echo "<p><b>Nombre de visites uniques depuis le 11/10/2023 : " . $contenuString . "</b></p>";
+				echo "<p><b>" . $contenuString . " visiteurs uniques depuis le 11/10/2023</b></p>";
 			?>
 			<br>
 			<br>
@@ -80,9 +80,11 @@
 			<br>
 			<br>
 			<footer class="piedPage">
-				<p class="date">
-					2022/2024
+				<br>
+				<p class="contenuPiedPage">
+					Rodrigues Kévin - BTS SIO SLAM - Lycée René Descartes - 2022/2024
 				</p>
+				<br>
 			</footer>
 		</center>
 		<script src="script.js"></script>
