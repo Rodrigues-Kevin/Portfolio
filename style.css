@@ -46,7 +46,7 @@
     display: none;
 }
 
-@media screen and (max-width: 1250px)
+@media screen and (max-width: 1260px)
 {
     .nav a:not(:first-child) {display: none;}
     .nav a.icone
@@ -56,7 +56,7 @@
     }
 }
 
-@media screen and (max-width: 1250px)
+@media screen and (max-width: 1260px)
 {
     .nom {display: none;}
     .nav.responsive {position: relative;}

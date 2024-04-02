@@ -31,6 +31,7 @@
 				<a href="moi.html">À propos de moi</a>
 				<a href="competences.html">Compétences</a>
 				<a href="bts.html">BTS SIO</a>
+				<a href="realisations.html">Réalisations</a>
 				<a href="stages.html">Stages</a>
 				<a href="veille.html">Veille technologique</a>
 				<a href="javascript:void(0);" class="icone" onclick="responsiveNav()">
@@ -51,7 +52,7 @@
 			<br>
 			<br>
 			<br>
-			<img class="imagePage" src="imagesPages/accueil.jpg">
+			<img class="imagePage" src="imagesPages/accueil.jpg"><br>
 			<br>
 			<br>
 			<br>
